@@ -1,7 +1,7 @@
 "use server";
 
 import { cookies } from "next/headers";
-import { CrmRole } from "@prisma/client/index";
+import { CrmRole } from "@prisma/client/index-browser";
 import { db } from "@/lib/db";
 import {
   assertCrmModuleEnabled,

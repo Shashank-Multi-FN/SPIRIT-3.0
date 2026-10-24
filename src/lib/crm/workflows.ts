@@ -8,7 +8,7 @@ import {
   CrmWorkflowEvent,
   CrmWorkflowRunStatus,
   type CrmFieldDefinition,
-} from "@prisma/client/index";
+} from "@prisma/client/index-browser";
 import {
   conditionalRuleMatches,
   type ConditionalRule,

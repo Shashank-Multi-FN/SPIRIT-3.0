@@ -1,7 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
-import { CrmRole, MembershipRole } from "@prisma/client/index";
+import { CrmRole, MembershipRole } from "@prisma/client/index-browser";
 import {
   updateCrmMembership,
   type CrmMembershipFormState,

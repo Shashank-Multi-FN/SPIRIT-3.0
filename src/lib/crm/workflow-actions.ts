@@ -4,7 +4,7 @@ import {
   CrmWorkflowActionRunStatus,
   CrmWorkflowActionType,
   CrmWorkflowRunStatus,
-} from "@prisma/client/index";
+} from "@prisma/client/index-browser";
 import { AuthorizationError } from "@/lib/auth/errors";
 import { getCrmTenantContext } from "@/lib/crm/context";
 import { CRM_PERMISSIONS } from "@/lib/crm/permissions";

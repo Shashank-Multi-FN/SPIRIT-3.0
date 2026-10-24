@@ -5,7 +5,7 @@ import {
   CrmFieldType,
   Prisma,
   type Prisma as PrismaTypes,
-} from "@prisma/client/index";
+} from "@prisma/client/index-browser";
 import { AuthorizationError } from "@/lib/auth/errors";
 import { assertCrmRolePermission } from "@/lib/auth/authorization";
 import { getCrmTenantContext } from "@/lib/crm/context";

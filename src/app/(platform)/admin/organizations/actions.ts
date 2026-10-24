@@ -1,6 +1,6 @@
 "use server";
 
-import { Prisma } from "@prisma/client/index";
+import { Prisma } from "@prisma/client/index-browser";
 import { revalidatePath } from "next/cache";
 import { requirePlatformAdmin } from "@/lib/auth/authorization";
 import { AuthorizationError } from "@/lib/auth/errors";

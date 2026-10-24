@@ -1,6 +1,6 @@
 import "server-only";
 
-import type { CrmFieldOrigin, CrmFieldType } from "@prisma/client/index";
+import type { CrmFieldOrigin, CrmFieldType } from "@prisma/client/index-browser";
 import { assertCrmRolePermission } from "@/lib/auth/authorization";
 import {
   ConditionalRuleValidationError,

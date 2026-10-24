@@ -1,4 +1,4 @@
-import { CrmFieldType } from "@prisma/client/index";
+import { CrmFieldType } from "@prisma/client/index-browser";
 import { evaluateConditionalFieldStates } from "@/lib/crm/conditional-logic";
 import type { RuntimeForm } from "@/lib/crm/runtime-forms";
 

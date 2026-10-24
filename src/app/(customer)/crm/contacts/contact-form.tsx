@@ -1,7 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
-import { CrmFieldType } from "@prisma/client/index";
+import { CrmFieldType } from "@prisma/client/index-browser";
 import {
   createContact,
   updateContact,

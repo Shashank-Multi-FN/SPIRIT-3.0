@@ -6,7 +6,7 @@ import {
   CrmWorkflowEvent,
   CrmWorkflowActionType,
   Prisma,
-} from "@prisma/client/index";
+} from "@prisma/client/index-browser";
 import { revalidatePath } from "next/cache";
 import { AuthorizationError } from "@/lib/auth/errors";
 import {

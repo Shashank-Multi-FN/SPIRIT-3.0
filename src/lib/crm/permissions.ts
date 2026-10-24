@@ -1,4 +1,4 @@
-import { CrmRole } from "@prisma/client/index";
+import { CrmRole } from "@prisma/client/index-browser";
 
 export const CRM_PERMISSIONS = {
   DASHBOARD_READ: "dashboard:read",

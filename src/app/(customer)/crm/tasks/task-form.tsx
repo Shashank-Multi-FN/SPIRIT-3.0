@@ -2,7 +2,7 @@
 
 import { useActionState } from "react";
 import { useRouter } from "next/navigation";
-import { CrmFieldType } from "@prisma/client/index";
+import { CrmFieldType } from "@prisma/client/index-browser";
 import { createTask, updateTask } from "./actions";
 import type { CustomFieldDisplayValue } from "@/lib/crm/custom-field-values";
 import type { ConditionalFieldState } from "@/lib/crm/conditional-logic";

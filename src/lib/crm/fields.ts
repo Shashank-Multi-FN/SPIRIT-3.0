@@ -2,7 +2,7 @@ import {
   CrmFieldOrigin,
   CrmFieldType,
   Prisma,
-} from "@prisma/client/index";
+} from "@prisma/client/index-browser";
 
 const SYSTEM_FIELDS = [
   ["companies", "name", "Name", CrmFieldType.TEXT, "name", true],

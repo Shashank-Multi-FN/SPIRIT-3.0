@@ -1,8 +1,8 @@
 "use server";
 
-import { Prisma, MembershipRole, CrmRole } from "@prisma/client/index";
+import { Prisma, MembershipRole, CrmRole } from "@prisma/client/index-browser";
 import { redirect } from "next/navigation";
-import { PlatformRole } from "@prisma/client/index";
+import { PlatformRole } from "@prisma/client/index-browser";
 import { db } from "@/lib/db";
 import { hashPassword, verifyPassword } from "@/lib/auth/password";
 import {

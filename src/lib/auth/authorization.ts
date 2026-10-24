@@ -4,7 +4,7 @@ import {
   CrmRole,
   MembershipRole,
   PlatformRole,
-} from "@prisma/client/index";
+} from "@prisma/client/index-browser";
 import { db } from "@/lib/db";
 import { getCurrentUser } from "@/lib/auth/session";
 import { AuthorizationError } from "@/lib/auth/errors";

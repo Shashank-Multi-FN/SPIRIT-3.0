@@ -1,6 +1,6 @@
 "use server";
 
-import type { CrmFieldType } from "@prisma/client/index";
+import type { CrmFieldType } from "@prisma/client/index-browser";
 import { revalidatePath } from "next/cache";
 import { getCrmTenantContext } from "@/lib/crm/context";
 import { AuthorizationError } from "@/lib/auth/errors";

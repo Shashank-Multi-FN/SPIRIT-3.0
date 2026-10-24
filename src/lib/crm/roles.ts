@@ -1,4 +1,4 @@
-import { CrmRole, MembershipRole } from "@prisma/client/index";
+import { CrmRole, MembershipRole } from "@prisma/client/index-browser";
 
 export function crmRoleForOrganizationRole(role: MembershipRole): CrmRole {
   switch (role) {
